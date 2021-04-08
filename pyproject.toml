@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "flaskapp"
+version = "0.1.0"
+description = ""
+authors = ["\"Tim Schoenheider\" <\"Tim.Schoenheider@target.com\">"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Flask = "^1.1.2"
+Flask-SQLAlchemy = "^2.5.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.3"
+rope = "^0.18.0"
+flake8 = "^3.9.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+start = 'flaskapp.main:run'
