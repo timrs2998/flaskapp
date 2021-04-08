@@ -2,6 +2,8 @@ import sqlite3
 DATABASE_NAME = "games.db"
 
 
+# TODO: use sqlalchemy instead of using the sqlite driver directly 
+
 def get_db():
     conn = sqlite3.connect(DATABASE_NAME)
     return conn

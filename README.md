@@ -4,9 +4,9 @@ Demo of CRUD operations using [Flask](https://palletsprojects.com/p/flask/) and 
 
 Borrowed from https://parzibyte.me/blog/en/2020/11/12/creating-api-rest-with-python-flask-sqlite3/
 
-https://code.visualstudio.com/
+Editor: https://code.visualstudio.com/
 
-https://python-poetry.org/
+Install Poetry: https://python-poetry.org/docs/#installation
 
 ```bash
 poetry install
